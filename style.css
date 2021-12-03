@@ -1,0 +1,82 @@
+body {
+    
+}
+#object_detection {
+   
+
+        color: white;
+        animation-name: rainbow;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    
+    
+}
+#guitar_button{
+    border-radius:90px;
+    color:pink;
+    text-shadow:1px 1px 5px black;
+}
+#monitor_button{
+    border-radius:90px;
+    color:pink;
+    text-shadow:1px 1px 5px black;
+}
+#pc_button{
+    border-radius:90px;
+    color:pink;
+    text-shadow:1px 1px 5px black;
+}
+#book_button{
+    border-radius:90px;
+    color:pink;
+    text-shadow:1px 1px 5px black;
+}
+#alexa_button{
+    border-radius:90px;
+    color:pink;
+    text-shadow:1px 1px 5px black;
+}
+
+
+
+
+@keyframes rainbow {
+    0% {
+        box-shadow: 1px 1px 50px lime;
+    }
+
+    12.5% {
+        box-shadow: 1px 1px 150px magenta;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    37.5% {
+        box-shadow: 1px 1px 150px rgb(0, 255, 0);
+    }
+
+    50% {
+        box-shadow: 1px 1px 50px rgb(0, 255, 255);
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 150px white;
+    }
+
+    75% {
+        box-shadow: 1px 1px 150px orange;
+    }
+    80% {
+        box-shadow: 1px 1px 50px rgb(255, 0, 255);
+    }
+
+    90% {
+        box-shadow: 1px 1px 50px powderblue;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px red;
+    }
+}
